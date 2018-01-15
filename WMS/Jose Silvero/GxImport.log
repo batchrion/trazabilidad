@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportLog>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>Fila</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>CodArticulo</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>Articulo</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>CodBodega</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>Stock</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>UnidadMedida</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>Precio</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>validFor</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>adbb33c9-0906-4971-833c-998de27e0676</Type>
+		<TypeName>Attribute</TypeName>
+		<Name>InvntItem</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>19abc6ff-2cd2-0000-0006-6d172bc2333b</Type>
+		<TypeName>DataView</TypeName>
+		<Name>VStockCuar</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+</ImportLog>

@@ -1,0 +1,152 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>CabEntradaMercancia</ObjName>
+<ObjDesc>Cab Entrada Mercancia</ObjDesc>
+<ObjPgmName>CabEntradaMercancia</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cabentradamercanciaid</VarId>
+<VarName>&amp;CabEntradaMercanciaId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>CabEntradaMercanciaId</AttriName>
+<Description>Entrada Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>OcDocEntry</AttriName>
+<Description>Oc Doc Entry</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>ProvCarCode</AttriName>
+<Description>Prov Car Code</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ProvCardName</AttriName>
+<Description>Prov Card Name</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>OcDocDate</AttriName>
+<Description>Oc Doc Date</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>OcDocDueDate</AttriName>
+<Description>Oc Doc Due Date</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>EmpSlpName</AttriName>
+<Description>Emp Slp Name</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>Empresa</AttriName>
+<Description>Empresa</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>UserName</AttriName>
+<Description>Recibido por</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>OcDocEntry</AttriName>
+<Description>Oc Doc Entry</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>ProvCarCode</AttriName>
+<Description>Prov Car Code</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ProvCardName</AttriName>
+<Description>Prov Card Name</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>OcDocDate</AttriName>
+<Description>Oc Doc Date</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>OcDocDueDate</AttriName>
+<Description>Oc Doc Due Date</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>EmpSlpName</AttriName>
+<Description>Emp Slp Name</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>Empresa</AttriName>
+<Description>Empresa</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>UserName</AttriName>
+<Description>Recibido por</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

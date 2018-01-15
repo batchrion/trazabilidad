@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>PCode128A</ObjName>
+<ObjDesc>Code128 A</ObjDesc>
+<ObjPgmName>PCode128A</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cadenain</VarId>
+<VarName>&amp;CadenaIn</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Cadenaout</VarId>
+<VarName>&amp;CadenaOut</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

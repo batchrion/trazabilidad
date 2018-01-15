@@ -1,0 +1,6 @@
+CREATE TABLE [GXA0008] ([UVID_CONTROLCDDocEntry]  int NOT NULL , [LineId]  int NOT NULL , [VisOrder]  int NOT NULL , [UVID_CONTROLCDObject]  varchar(20) NOT NULL , [UVID_CONTROLCDLogInst]  int NOT NULL , [U_CodAtr]  varchar(20) NOT NULL , [U_NameAtr]  varchar(50) NOT NULL , [U_Cualitat]  char(1) NOT NULL , [U_Critico]  char(1) NOT NULL , [U_TipoMues]  varchar(8) NOT NULL , [U_Rango]  varchar(20) NOT NULL , [U_TipoDef]  char(1) NOT NULL , [U_AQL]  varchar(8) NOT NULL , [U_TiempoDu]  decimal( 18) NOT NULL , [U_StandAtr]  decimal( 18) NOT NULL , [U_Minimo]  decimal( 18) NOT NULL , [U_Maximo]  decimal( 18) NOT NULL , [U_Medicion]  decimal( 18) NOT NULL , [U_CodEquip]  varchar(8) NOT NULL , [UVID_CONTROLCDU_Comment]  varchar(254) NOT NULL , [U_Comment2]  varchar(254) NOT NULL , [UVID_CONTROLCDU_Estado]  char(1) NOT NULL )
+Run conversion program for table UVID_CONTROLCD1
+CALL sp_rename('[GXA0008]', 'UVID_CONTROLCD1')
+ALTER TABLE [UVID_CONTROLCD1] ADD PRIMARY KEY([UVID_CONTROLCDDocEntry], [LineId])
+DROP TABLE [UVID_CONTROLCD]
+

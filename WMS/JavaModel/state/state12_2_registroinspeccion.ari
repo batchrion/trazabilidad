@@ -1,0 +1,37 @@
+current_obj_i(2,web,32).
+ 
+current_guid('668cc652-b93a-4eb4-8c2e-792d7063b8dc').
+ 
+ 
+called_tree_i(13,32,1,18).
+called_tree_i(13,32,1,19).
+called_tree_i(13,32,1,20).
+called_tree_i(13,32,13,4).
+called_tree_i(13,32,13,38).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(registroinspeccion,'Registro de Inspección','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(registroinspeccion,[],[ registroinspeccion_impl ],[ 'GxWebStd','SdtQAttributeDetail_QAttributeDetailItem','StructSdtQAttributeDetail_QAttributeDetailItem','GxObjectCollection' ],32).
+ 
+ 
+ 
+ij_usercontrol_directory_i('Tab').
+ij_usercontrol_directory_i('Shared').
+ 
+ 
+ 
+ 
+ 

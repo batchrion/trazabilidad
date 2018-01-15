@@ -1,0 +1,29 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>22</ObjId>
+<ObjName>EntradaMercancia</ObjName>
+<ObjDesc>Entrada Mercancia</ObjDesc>
+<ObjPgmName>EntradaMercancia</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'GetEntradaMerc'</EventName></Event>
+<Event>
+<EventName>Grid1.Load</EventName>
+<Binding>
+<Variable>
+<VarId>Cabentrada</VarId>
+<VarName>&amp;CabEntrada</VarName></Variable></Binding></Event>
+<Suggests></Suggests></ObjectSpec>

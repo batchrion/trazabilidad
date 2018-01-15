@@ -1,0 +1,166 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>StockCuar</ObjName>
+<ObjDesc>Stock Cuar</ObjDesc>
+<ObjPgmName>StockCuar</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>13</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>Fila</AttriName>
+<Description>Fila</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>Fila</AttriName>
+<Description>Fila</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>CodArticulo</AttriName>
+<Description>Cod Articulo</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>Articulo</AttriName>
+<Description>Articulo</Description></Attribute>
+<Attribute>
+<AttriId>199</AttriId>
+<AttriName>CodBodega</AttriName>
+<Description>Cod Bodega</Description></Attribute>
+<Attribute>
+<AttriId>200</AttriId>
+<AttriName>Stock</AttriName>
+<Description>Stock</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>UnidadMedida</AttriName>
+<Description>Unidad Medida</Description></Attribute>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>Precio</AttriName>
+<Description>Precio</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>validFor</AttriName>
+<Description>valid For</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>InvntItem</AttriName>
+<Description>Invnt Item</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>CodArticulo</AttriName>
+<Description>Cod Articulo</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>Articulo</AttriName>
+<Description>Articulo</Description></Attribute>
+<Attribute>
+<AttriId>199</AttriId>
+<AttriName>CodBodega</AttriName>
+<Description>Cod Bodega</Description></Attribute>
+<Attribute>
+<AttriId>200</AttriId>
+<AttriName>Stock</AttriName>
+<Description>Stock</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>UnidadMedida</AttriName>
+<Description>Unidad Medida</Description></Attribute>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>Precio</AttriName>
+<Description>Precio</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>validFor</AttriName>
+<Description>valid For</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>InvntItem</AttriName>
+<Description>Invnt Item</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>13</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Stock Cuar</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>40</ObjId>
+<ObjName>Gx00D0</ObjName>
+<ObjPgmName>Gx00D0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>Fila</AttriName>
+<Description>Fila</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

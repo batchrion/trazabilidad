@@ -1,0 +1,32 @@
+current_obj_i(2,web,23).
+ 
+current_guid('8cd5c99a-125d-0224-bd24-8e4bdbe97102').
+ 
+ 
+called_tree_i(13,23,1,17).
+called_tree_i(13,23,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(hsilentprinting2,'Silent Printing2','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(hsilentprinting2,[],[ hsilentprinting2_impl ],[ 'GxWebStd' ],23).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

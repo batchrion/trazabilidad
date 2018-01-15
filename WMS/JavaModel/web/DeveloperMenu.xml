@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus15/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UVID_CONTROLCD</ObjName>
+      <ObjDesc>UVID_CONTROLCD</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.uvid_controlcd</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UVID_CONTROLCH</ObjName>
+      <ObjDesc>UVID_CONTROLCH</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.uvid_controlch</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>RegistroInspeccionH</ObjName>
+      <ObjDesc>Registro Inspeccion H</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.registroinspeccionh</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>RegistroInspeccionH</ObjName>
+      <ObjDesc>Registro Inspeccion H</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.registroinspeccionh</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>RegistroInspeccionD</ObjName>
+      <ObjDesc>Registro Inspeccion D</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.registroinspecciond</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UVID_ATRCONTARTD</ObjName>
+      <ObjDesc>UVID_ATRCONTARTD</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.uvid_atrcontartd</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>UVID_ATRCONTARTH</ObjName>
+      <ObjDesc>UVID_ATRCONTARTH</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.uvid_atrcontarth</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>StockCuar</ObjName>
+      <ObjDesc>Stock Cuar</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.stockcuar</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Home</ObjName>
+      <ObjDesc>Home</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.home</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCabEntradaMercancia</ObjName>
+      <ObjDesc>Work With Cab Entrada Mercancia</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.wwcabentradamercancia</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWDetEntradaMercancia</ObjName>
+      <ObjDesc>Work With Det Entrada Mercancia</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.wwdetentradamercancia</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>EntradaMercancia</ObjName>
+      <ObjDesc>Entrada Mercancia</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.entradamercancia</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>HSilentPrinting2</ObjName>
+      <ObjDesc>Silent Printing2</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.hsilentprinting2</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>RegistroInspeccion</ObjName>
+      <ObjDesc>Registro de Inspección</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.registroinspeccion</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>1</ObjCls>
+      <ObjName>PReportOne2</ObjName>
+      <ObjDesc>Report One2</ObjDesc>
+      <ObjLink>http://localhost:8080/WMSJavaEnvironment/servlet/com.wms.apreportone2</ObjLink>
+   </Object>
+</Objects>

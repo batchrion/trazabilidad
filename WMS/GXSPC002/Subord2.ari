@@ -1,0 +1,7 @@
+dir_subordinates_i(2,1,[]).
+dir_subordinates_i(2,5,[]).
+dir_subordinates_i(2,8,[]).
+dir_subordinates_i(2,9,[]).
+dir_subordinates_i(2,10,[]).
+dir_subordinates_i(2,13,[]).
+ 

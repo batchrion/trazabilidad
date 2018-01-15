@@ -1,0 +1,579 @@
+spec_i([ proc,21,'Get Bodega','GetBodega',78,spa,'15_0_3-111985' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 13,[ [ 13,many ] ],[],[],[ [ [ 13 ],[ 199,197,198,200,201,202,194,195 ] ] ],[ [ [ 13 ],[] ] ],[ 203 ],'IVSTOCKCUAR',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(199,2),t(=,10),t('Bodega',23) ],[ 199 ]) ] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+ 
+ta_i(2,[ [ [ 13,199 ],[ 13,197 ],[ 13,198 ],[ 13,200 ],[ 13,201 ],[ 13,202 ],[ 13,194 ],[ 13,195 ] ] ]).
+ 
+las_i(2,[ [ 199,197,198,200,201,202,194,195 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','MyŠsu„‘o_¹¼ºÆ')).
+rule_i(0,datastore(2,'CC_USER_ID',sa)).
+rule_i(0,datastore(2,'CC_SERVER','192.168.0.11')).
+rule_i(0,datastore(2,'CC_DBNAME','FUSQUIM')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','Mercurio_Ì1Ì*ÌNÒ<')).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','192.168.0.11')).
+rule_i(0,datastore(2,'CS_DBNAME','FUSQUIM')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','FUSQUIM_SAP')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS',ozzsm–µ)).
+rule_i(0,datastore(1,'CC_USER_ID',sa)).
+rule_i(0,datastore(1,'CC_SERVER','JOSESILVERO')).
+rule_i(0,datastore(1,'CC_DBNAME','PruebaRest')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',odbcmdêE)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','JOSESILVERO')).
+rule_i(0,datastore(1,'CS_DBNAME','PruebaRest')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','GetBodega')).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Procedimientos'))).
+rule_i(0,prop('ObjDesc','Get Bodega')).
+rule_i(0,prop('ObjName','GetBodega')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Bodega','Bodegacuar' ],[])).
+rule_i(0,parmio([ [ 'Bodega',in ],[ 'Bodegacuar',out ] ])).
+rule_i(0,output('FIL')).
+rule_i(0,file(13,'VSTOCKCUAR',[ 203,197,198,199,200,201,202,194,195 ])).
+rule_i(0,loc([ 13 ],'VSTOCKCUAR','','LAN')).
+rule_i(0,index(13,'IVSTOCKCUAR',u,[ 203 ])).
+rule_i(0,loc([ 13,'IVSTOCKCUAR' ],'IVSTOCKCUAR','','LAN')).
+rule_i(0,p(0,0,fv,8,[ intname,'VSTOCKCUAR' ])).
+rule_i(0,p(0,0,fv,8,[ table,13 ])).
+rule_i(0,p(0,0,fv,8,[ datastore,2 ])).
+rule_i(0,p(0,12,fv,8,[])).
+rule_i(0,p(0,12,fv,8,[ 'NAME','VStockCuar' ])).
+rule_i(0,p(0,12,fv,8,[ 'LOC','' ])).
+rule_i(0,p(0,12,fv,8,[ 'SCHEMA',dbo ])).
+rule_i(0,p(0,12,fv,8,[ 'EXTNAM','YES' ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,13,[],[ [],'IVSTOCKCUAR',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,199).
+v_i(t,o,2,197).
+v_i(t,o,2,198).
+v_i(t,o,2,200).
+v_i(t,o,2,201).
+v_i(t,o,2,202).
+v_i(t,o,2,194).
+v_i(t,o,2,195).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',14 ]).
+attri_i(203,[ 'Fila',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Fila','',0 ]).
+attri_i(197,[ 'CodArticulo',svchar,50,0,'',0,'Cod Articulo','',0 ]).
+attri_i(198,[ 'Articulo',svchar,100,0,'',0,'Articulo','',0 ]).
+attri_i(199,[ 'CodBodega',svchar,8,0,'',0,'Cod Bodega','',0 ]).
+attri_i(200,[ 'Stock',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Stock','',0 ]).
+attri_i(201,[ 'UnidadMedida',svchar,100,0,'',0,'Unidad Medida','',0 ]).
+attri_i(202,[ 'Precio',int,18,0,'ZZZZZZZZZZZZZZZZZ9',0,'Precio','',0 ]).
+attri_i(194,[ validFor,char,1,0,'',0,'valid For','',0 ]).
+attri_i(195,[ 'InvntItem',char,1,0,'',0,'Invnt Item','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Bodegacuaritem',[ 'BodegaCuarItem',o('BodegaCuar.BodegaCuarItem'),0,0,'',0,'Bodega Cuar Item','',9 ]).
+attri_i('Bodegacuar',[ 'BodegaCuar',o(objectcollection('BodegaCuar.BodegaCuarItem')),0,0,'',0,'Bodega Cuar','',8 ]).
+attri_i('Bodega',[ 'Bodega',svchar,10,0,'',0,'Bodega','',10 ]).
+ 
+table_i(13,[ 'VSTOCKCUAR',[ 203,197,198,199,200,201,202,194,195 ],'Stock Cuar','VStockCuar' ]).
+ 
+index_i(13,[ 'IVSTOCKCUAR',u,[ 203 ],'IVSTOCKCUAR' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(13,i,'ISTOCKCUAR',[ 'IVSTOCKCUAR' ]).
+map_i(13,a,195,[ 'InvntItem' ]).
+map_i(13,a,194,[ validFor ]).
+map_i(13,a,202,[ 'Precio' ]).
+map_i(13,a,201,[ 'UnidadMedida' ]).
+map_i(13,a,200,[ 'Stock' ]).
+map_i(13,a,199,[ 'CodBodega' ]).
+map_i(13,a,198,[ 'Articulo' ]).
+map_i(13,a,197,[ 'CodArticulo' ]).
+map_i(13,a,203,[ 'Fila' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [ 195,194,202,201,200,199,198,197 ],[ 199 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,14,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',121,1,0),t(table,3,1,10),t(13,3,1,10) ]).
+b_line_i(3,2,1,cmd,2,[]).
+b_line_i(4,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Itemcode',3,2,0) ],29,2,0),t(=,10,2,0),t(197,2,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Itemname',3,2,0) ],29,2,0),t(=,10,2,0),t(198,2,2,0) ]).
+b_line_i(6,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Whscode',3,2,0) ],29,2,0),t(=,10,2,0),t(199,2,2,0) ]).
+b_line_i(7,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Onhand',3,2,0) ],29,2,0),t(=,10,2,0),t(200,2,2,0) ]).
+b_line_i(8,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Cntunitmsr',3,2,0) ],29,2,0),t(=,10,2,0),t(201,2,2,0) ]).
+b_line_i(9,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Avgprice',3,2,0) ],29,2,0),t(=,10,2,0),t(202,2,2,0) ]).
+b_line_i(10,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Validfor',3,2,0) ],29,2,0),t(=,10,2,0),t(194,2,2,0) ]).
+b_line_i(11,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuaritem',23,2,0),t('Invntitem',3,2,0) ],29,2,0),t(=,10,2,0),t(195,2,2,0) ]).
+b_line_i(12,2,1,cmd,2,[ t('',107,2,0),t([ t('Bodegacuar',23,12,2),t('add(',1,12,14) ],31,12,2),t([ t('Bodegacuaritem',23,12,19),t('clone(',1,12,35) ],31,12,35),t(')',4,2,42),t(')',4,2,43) ]).
+b_line_i(13,2,1,cmd,2,[ t('',128,2,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(13,32).
+ 
+att_prop_i(2,195,'ExternalName','InvntItem',d).
+att_prop_i(2,195,'ExternalNamespace','WMS',d).
+att_prop_i(2,195,'EmptyAsNull','Yes',d).
+att_prop_i(2,195,idBasedOn,'',d).
+att_prop_i(2,195,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,195,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,195,'AttRegEx','',d).
+att_prop_i(2,195,'AttValidationFailedMsg','',d).
+att_prop_i(2,195,'FullName','InvntItem',v).
+att_prop_i(2,194,'ExternalName',validFor,d).
+att_prop_i(2,194,'ExternalNamespace','WMS',d).
+att_prop_i(2,194,'EmptyAsNull','Yes',d).
+att_prop_i(2,194,idBasedOn,'',d).
+att_prop_i(2,194,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,194,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,194,'AttRegEx','',d).
+att_prop_i(2,194,'AttValidationFailedMsg','',d).
+att_prop_i(2,194,'FullName',validFor,v).
+att_prop_i(2,202,'ExternalName','Precio',d).
+att_prop_i(2,202,'ExternalNamespace','WMS',d).
+att_prop_i(2,202,'EmptyAsNull','Yes',d).
+att_prop_i(2,202,idBasedOn,'',d).
+att_prop_i(2,202,'AUTONUMBER','0',d).
+att_prop_i(2,202,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,202,'AttRegEx','',d).
+att_prop_i(2,202,'AttValidationFailedMsg','',d).
+att_prop_i(2,202,'FullName','Precio',v).
+att_prop_i(2,201,'ExternalName','UnidadMedida',d).
+att_prop_i(2,201,'ExternalNamespace','WMS',d).
+att_prop_i(2,201,'EmptyAsNull','Yes',d).
+att_prop_i(2,201,idBasedOn,'',d).
+att_prop_i(2,201,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,201,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,201,'AttRegEx','',d).
+att_prop_i(2,201,'AttValidationFailedMsg','',d).
+att_prop_i(2,201,'FullName','UnidadMedida',v).
+att_prop_i(2,200,'ExternalName','Stock',d).
+att_prop_i(2,200,'ExternalNamespace','WMS',d).
+att_prop_i(2,200,'EmptyAsNull','Yes',d).
+att_prop_i(2,200,idBasedOn,'',d).
+att_prop_i(2,200,'AUTONUMBER','0',d).
+att_prop_i(2,200,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,200,'AttRegEx','',d).
+att_prop_i(2,200,'AttValidationFailedMsg','',d).
+att_prop_i(2,200,'FullName','Stock',v).
+att_prop_i(2,199,'ExternalName','CodBodega',d).
+att_prop_i(2,199,'ExternalNamespace','WMS',d).
+att_prop_i(2,199,'EmptyAsNull','Yes',d).
+att_prop_i(2,199,idBasedOn,'',d).
+att_prop_i(2,199,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,199,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,199,'AttRegEx','',d).
+att_prop_i(2,199,'AttValidationFailedMsg','',d).
+att_prop_i(2,199,'FullName','CodBodega',v).
+att_prop_i(2,198,'ExternalName','Articulo',d).
+att_prop_i(2,198,'ExternalNamespace','WMS',d).
+att_prop_i(2,198,'EmptyAsNull','Yes',d).
+att_prop_i(2,198,idBasedOn,'',d).
+att_prop_i(2,198,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,198,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,198,'AttRegEx','',d).
+att_prop_i(2,198,'AttValidationFailedMsg','',d).
+att_prop_i(2,198,'FullName','Articulo',v).
+att_prop_i(2,197,'ExternalName','CodArticulo',d).
+att_prop_i(2,197,'ExternalNamespace','WMS',d).
+att_prop_i(2,197,'EmptyAsNull','Yes',d).
+att_prop_i(2,197,idBasedOn,'',d).
+att_prop_i(2,197,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,197,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,197,'AttRegEx','',d).
+att_prop_i(2,197,'AttValidationFailedMsg','',d).
+att_prop_i(2,197,'FullName','CodArticulo',v).
+att_prop_i(2,203,'ExternalName','Fila',d).
+att_prop_i(2,203,'ExternalNamespace','WMS',d).
+att_prop_i(2,203,'EmptyAsNull','Yes',d).
+att_prop_i(2,203,idBasedOn,'',d).
+att_prop_i(2,203,'AUTONUMBER','0',d).
+att_prop_i(2,203,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,203,'AttRegEx','',d).
+att_prop_i(2,203,'AttValidationFailedMsg','',d).
+att_prop_i(2,203,'FullName','Fila',v).
+ 
+ 
+tbl_att_prop_i(2,13,203,'AllowNulls',n).
+tbl_att_prop_i(2,13,197,'AllowNulls',n).
+tbl_att_prop_i(2,13,198,'AllowNulls',n).
+tbl_att_prop_i(2,13,199,'AllowNulls',n).
+tbl_att_prop_i(2,13,200,'AllowNulls',n).
+tbl_att_prop_i(2,13,201,'AllowNulls',n).
+tbl_att_prop_i(2,13,202,'AllowNulls',n).
+tbl_att_prop_i(2,13,194,'AllowNulls',n).
+tbl_att_prop_i(2,13,195,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,42,0 ],name,'BodegaCuar').
+struct_dt_i([ 26,42,0 ],namespace,'WMS').
+struct_dt_i([ 26,42,0 ],'ObjName','BodegaCuar').
+struct_dt_i([ 26,42,0 ],'ObjDesc','Bodega Cuar').
+struct_dt_i([ 26,42,0 ],'ExternalName','BodegaCuar').
+struct_dt_i([ 26,42,0 ],'ExternalNamespace','WMS').
+struct_dt_i([ 26,42,0 ],collection,'True').
+struct_dt_i([ 26,42,0 ],datatype,[ 26,42,68 ]).
+struct_dt_i([ 26,42,68 ],name,'BodegaCuarItem').
+struct_dt_i([ 26,42,68 ],namespace,'WMS.BodegaCuar').
+struct_dt_i([ 26,42,0 ],fullname,'BodegaCuar').
+struct_dt_i([ 26,42,68 ],fullname,'BodegaCuar.BodegaCuarItem').
+struct_dt_i([ 26,42,0 ],modified,yes).
+struct_dt_i([ 26,42,68 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,42,68 ],1,name,'Itemcode').
+struct_dt_elem_i([ 26,42,68 ],1,camelname,'ItemCode').
+struct_dt_elem_i([ 26,42,68 ],1,length,50).
+struct_dt_elem_i([ 26,42,68 ],1,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],1,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 26,42,68 ],1,pic,'').
+struct_dt_elem_i([ 26,42,68 ],1,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],1,'ExternalName','ItemCode').
+struct_dt_elem_i([ 26,42,68 ],1,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],1,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],1,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],1,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],2,name,'Itemname').
+struct_dt_elem_i([ 26,42,68 ],2,camelname,'ItemName').
+struct_dt_elem_i([ 26,42,68 ],2,length,100).
+struct_dt_elem_i([ 26,42,68 ],2,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,42,68 ],2,pic,'').
+struct_dt_elem_i([ 26,42,68 ],2,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],2,'ExternalName','ItemName').
+struct_dt_elem_i([ 26,42,68 ],2,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],2,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],2,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],2,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],3,name,'Whscode').
+struct_dt_elem_i([ 26,42,68 ],3,camelname,'WhsCode').
+struct_dt_elem_i([ 26,42,68 ],3,length,8).
+struct_dt_elem_i([ 26,42,68 ],3,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],3,type,[ 13,8,0 ]).
+struct_dt_elem_i([ 26,42,68 ],3,pic,'').
+struct_dt_elem_i([ 26,42,68 ],3,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],3,'ExternalName','WhsCode').
+struct_dt_elem_i([ 26,42,68 ],3,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],3,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],3,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],3,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],4,name,'Onhand').
+struct_dt_elem_i([ 26,42,68 ],4,camelname,'OnHand').
+struct_dt_elem_i([ 26,42,68 ],4,length,18).
+struct_dt_elem_i([ 26,42,68 ],4,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],4,sign,0).
+struct_dt_elem_i([ 26,42,68 ],4,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,42,68 ],4,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,42,68 ],4,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],4,'ExternalName','OnHand').
+struct_dt_elem_i([ 26,42,68 ],4,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],4,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],4,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],4,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],5,name,'Cntunitmsr').
+struct_dt_elem_i([ 26,42,68 ],5,camelname,'CntUnitMsr').
+struct_dt_elem_i([ 26,42,68 ],5,length,100).
+struct_dt_elem_i([ 26,42,68 ],5,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,42,68 ],5,pic,'').
+struct_dt_elem_i([ 26,42,68 ],5,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],5,'ExternalName','CntUnitMsr').
+struct_dt_elem_i([ 26,42,68 ],5,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],5,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],5,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],5,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],6,name,'Avgprice').
+struct_dt_elem_i([ 26,42,68 ],6,camelname,'AvgPrice').
+struct_dt_elem_i([ 26,42,68 ],6,length,18).
+struct_dt_elem_i([ 26,42,68 ],6,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],6,sign,0).
+struct_dt_elem_i([ 26,42,68 ],6,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 26,42,68 ],6,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,42,68 ],6,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],6,'ExternalName','AvgPrice').
+struct_dt_elem_i([ 26,42,68 ],6,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],6,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],6,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],6,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],7,name,'Validfor').
+struct_dt_elem_i([ 26,42,68 ],7,camelname,validFor).
+struct_dt_elem_i([ 26,42,68 ],7,length,1).
+struct_dt_elem_i([ 26,42,68 ],7,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],7,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,42,68 ],7,pic,'').
+struct_dt_elem_i([ 26,42,68 ],7,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],7,'ExternalName',validFor).
+struct_dt_elem_i([ 26,42,68 ],7,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],7,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],7,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],7,'JsonName','').
+struct_dt_elem_i([ 26,42,68 ],8,name,'Invntitem').
+struct_dt_elem_i([ 26,42,68 ],8,camelname,'InvntItem').
+struct_dt_elem_i([ 26,42,68 ],8,length,1).
+struct_dt_elem_i([ 26,42,68 ],8,decimals,0).
+struct_dt_elem_i([ 26,42,68 ],8,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,42,68 ],8,pic,'').
+struct_dt_elem_i([ 26,42,68 ],8,collection,'False').
+struct_dt_elem_i([ 26,42,68 ],8,'ExternalName','InvntItem').
+struct_dt_elem_i([ 26,42,68 ],8,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,42,68 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,42,68 ],8,'XmlName','').
+struct_dt_elem_i([ 26,42,68 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,42,68 ],8,soaptype,'').
+struct_dt_elem_i([ 26,42,68 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,42,68 ],8,'JsonName','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,21,'GETBODEGA','INTERNAL').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

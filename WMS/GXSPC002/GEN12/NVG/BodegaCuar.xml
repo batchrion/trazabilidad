@@ -1,0 +1,153 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>BodegaCuar</ObjName>
+<ObjDesc>Bodega Cuar</ObjDesc>
+<ObjPgmName>BodegaCuar</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>11</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>189</AttriId>
+<AttriName>ItemCode</AttriName>
+<Description>Item Code</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>189</AttriId>
+<AttriName>ItemCode</AttriName>
+<Description>Item Code</Description></Attribute>
+<Attribute>
+<AttriId>190</AttriId>
+<AttriName>ItemName</AttriName>
+<Description>Item Name</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>BodegaCuarWhsCode</AttriName>
+<Description>Bodega Cuar Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>191</AttriId>
+<AttriName>OnHand</AttriName>
+<Description>On Hand</Description></Attribute>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>CntUnitMsr</AttriName>
+<Description>Cnt Unit Msr</Description></Attribute>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AvgPrice</AttriName>
+<Description>Avg Price</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>validFor</AttriName>
+<Description>valid For</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>InvntItem</AttriName>
+<Description>Invnt Item</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>190</AttriId>
+<AttriName>ItemName</AttriName>
+<Description>Item Name</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>BodegaCuarWhsCode</AttriName>
+<Description>Bodega Cuar Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>191</AttriId>
+<AttriName>OnHand</AttriName>
+<Description>On Hand</Description></Attribute>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>CntUnitMsr</AttriName>
+<Description>Cnt Unit Msr</Description></Attribute>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>AvgPrice</AttriName>
+<Description>Avg Price</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>validFor</AttriName>
+<Description>valid For</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>InvntItem</AttriName>
+<Description>Invnt Item</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>11</TableId>
+<TableName>VSTOCKCUAR</TableName>
+<Description>Bodega Cuar</Description></Table>
+<ProgramName>
+<Token>Gx00B0</Token></ProgramName>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>189</AttriId>
+<AttriName>ItemCode</AttriName>
+<Description>Item Code</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

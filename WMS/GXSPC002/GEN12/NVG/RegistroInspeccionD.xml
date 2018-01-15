@@ -1,0 +1,274 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>RegistroInspeccionD</ObjName>
+<ObjDesc>Registro Inspeccion D</ObjDesc>
+<ObjPgmName>RegistroInspeccionD</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>8</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>UVID_CONTROLCDDocEntry</AttriName>
+<Description>UVID_CONTROLCDDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>LineId</AttriName>
+<Description>Line Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>UVID_CONTROLCDDocEntry</AttriName>
+<Description>UVID_CONTROLCDDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>LineId</AttriName>
+<Description>Line Id</Description></Attribute>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>VisOrder</AttriName>
+<Description>Vis Order</Description></Attribute>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>UVID_CONTROLCDObject</AttriName>
+<Description>UVID_CONTROLCDObject</Description></Attribute>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>UVID_CONTROLCDLogInst</AttriName>
+<Description>UVID_CONTROLCDLog Inst</Description></Attribute>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>U_CodAtr</AttriName>
+<Description>U_Cod Atr</Description></Attribute>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>U_NameAtr</AttriName>
+<Description>U_Name Atr</Description></Attribute>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>U_Cualitat</AttriName>
+<Description>U_Cualitat</Description></Attribute>
+<Attribute>
+<AttriId>112</AttriId>
+<AttriName>U_Critico</AttriName>
+<Description>U_Critico</Description></Attribute>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>U_TipoMues</AttriName>
+<Description>U_Tipo Mues</Description></Attribute>
+<Attribute>
+<AttriId>114</AttriId>
+<AttriName>U_Rango</AttriName>
+<Description>U_Rango</Description></Attribute>
+<Attribute>
+<AttriId>115</AttriId>
+<AttriName>U_TipoDef</AttriName>
+<Description>U_Tipo Def</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>U_AQL</AttriName>
+<Description>U_AQL</Description></Attribute>
+<Attribute>
+<AttriId>117</AttriId>
+<AttriName>U_TiempoDu</AttriName>
+<Description>U_Tiempo Du</Description></Attribute>
+<Attribute>
+<AttriId>118</AttriId>
+<AttriName>U_StandAtr</AttriName>
+<Description>U_Stand Atr</Description></Attribute>
+<Attribute>
+<AttriId>119</AttriId>
+<AttriName>U_Minimo</AttriName>
+<Description>U_Minimo</Description></Attribute>
+<Attribute>
+<AttriId>120</AttriId>
+<AttriName>U_Maximo</AttriName>
+<Description>U_Maximo</Description></Attribute>
+<Attribute>
+<AttriId>121</AttriId>
+<AttriName>U_Medicion</AttriName>
+<Description>U_Medicion</Description></Attribute>
+<Attribute>
+<AttriId>122</AttriId>
+<AttriName>U_CodEquip</AttriName>
+<Description>U_Cod Equip</Description></Attribute>
+<Attribute>
+<AttriId>123</AttriId>
+<AttriName>UVID_CONTROLCDU_Comment</AttriName>
+<Description>UVID_CONTROLCDU_Comment</Description></Attribute>
+<Attribute>
+<AttriId>124</AttriId>
+<AttriName>U_Comment2</AttriName>
+<Description>U_Comment2</Description></Attribute>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>UVID_CONTROLCDU_Estado</AttriName>
+<Description>UVID_CONTROLCDU_Estado</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>VisOrder</AttriName>
+<Description>Vis Order</Description></Attribute>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>UVID_CONTROLCDObject</AttriName>
+<Description>UVID_CONTROLCDObject</Description></Attribute>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>UVID_CONTROLCDLogInst</AttriName>
+<Description>UVID_CONTROLCDLog Inst</Description></Attribute>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>U_CodAtr</AttriName>
+<Description>U_Cod Atr</Description></Attribute>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>U_NameAtr</AttriName>
+<Description>U_Name Atr</Description></Attribute>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>U_Cualitat</AttriName>
+<Description>U_Cualitat</Description></Attribute>
+<Attribute>
+<AttriId>112</AttriId>
+<AttriName>U_Critico</AttriName>
+<Description>U_Critico</Description></Attribute>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>U_TipoMues</AttriName>
+<Description>U_Tipo Mues</Description></Attribute>
+<Attribute>
+<AttriId>114</AttriId>
+<AttriName>U_Rango</AttriName>
+<Description>U_Rango</Description></Attribute>
+<Attribute>
+<AttriId>115</AttriId>
+<AttriName>U_TipoDef</AttriName>
+<Description>U_Tipo Def</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>U_AQL</AttriName>
+<Description>U_AQL</Description></Attribute>
+<Attribute>
+<AttriId>117</AttriId>
+<AttriName>U_TiempoDu</AttriName>
+<Description>U_Tiempo Du</Description></Attribute>
+<Attribute>
+<AttriId>118</AttriId>
+<AttriName>U_StandAtr</AttriName>
+<Description>U_Stand Atr</Description></Attribute>
+<Attribute>
+<AttriId>119</AttriId>
+<AttriName>U_Minimo</AttriName>
+<Description>U_Minimo</Description></Attribute>
+<Attribute>
+<AttriId>120</AttriId>
+<AttriName>U_Maximo</AttriName>
+<Description>U_Maximo</Description></Attribute>
+<Attribute>
+<AttriId>121</AttriId>
+<AttriName>U_Medicion</AttriName>
+<Description>U_Medicion</Description></Attribute>
+<Attribute>
+<AttriId>122</AttriId>
+<AttriName>U_CodEquip</AttriName>
+<Description>U_Cod Equip</Description></Attribute>
+<Attribute>
+<AttriId>123</AttriId>
+<AttriName>UVID_CONTROLCDU_Comment</AttriName>
+<Description>UVID_CONTROLCDU_Comment</Description></Attribute>
+<Attribute>
+<AttriId>124</AttriId>
+<AttriName>U_Comment2</AttriName>
+<Description>U_Comment2</Description></Attribute>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>UVID_CONTROLCDU_Estado</AttriName>
+<Description>UVID_CONTROLCDU_Estado</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>8</TableId>
+<TableName>@VID_CONTROLCD</TableName>
+<Description>UVID CONTROLCD1</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>34</ObjId>
+<ObjName>Gx0080</ObjName>
+<ObjPgmName>Gx0080</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>UVID_CONTROLCDDocEntry</AttriName>
+<Description>UVID_CONTROLCDDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>LineId</AttriName>
+<Description>Line Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

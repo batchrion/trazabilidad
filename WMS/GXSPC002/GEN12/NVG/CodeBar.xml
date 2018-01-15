@@ -1,0 +1,25 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>21</ObjId>
+<ObjName>CodeBar</ObjName>
+<ObjDesc>Code Bar</ObjDesc>
+<ObjPgmName>CodeBar</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'Convertir'</EventName></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

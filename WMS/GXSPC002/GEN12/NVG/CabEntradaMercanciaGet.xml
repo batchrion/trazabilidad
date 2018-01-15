@@ -1,0 +1,86 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>CabEntradaMercanciaGet</ObjName>
+<ObjDesc>Cab Entrada Mercancia Get</ObjDesc>
+<ObjPgmName>CabEntradaMercanciaGet</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Numerooc</VarId>
+<VarName>&amp;NumeroOC</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Cabentrada</VarId>
+<VarName>&amp;CabEntrada</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>CabEntradaMercanciaId</AttriName>
+<Description>Entrada Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICABENTRADAMERCANCIA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>OcDocEntry</AttriName>
+<Description>Oc Doc Entry</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Numerooc</VarId>
+<VarName>&amp;NumeroOC</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>CabEntradaMercanciaId</AttriName>
+<Description>Entrada Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_WMS</DBName>
+	<IntegratedSecurity>False</IntegratedSecurity>
+	<ServerInstance>JOSESILVERO\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\WMS</Directory>
+	<DataFile>GX_KB_WMS.mdf</DataFile>
+	<LogFile>GX_KB_WMS_log.ldf</LogFile>
+	<HostName>JOSESILVERO</HostName>
+</ConnectionInformation>

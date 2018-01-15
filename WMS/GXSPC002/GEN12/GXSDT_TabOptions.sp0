@@ -1,0 +1,92 @@
+ 
+spec_i([ sdt,[ 26,37,0 ],'TabOptions','TabOptions',0,spa,'15_0_3-111985' ]).
+ 
+struct_dt_i([ 26,37,0 ],name,'TabOptions').
+struct_dt_i([ 26,37,0 ],namespace,'WMS').
+struct_dt_i([ 26,37,0 ],'ObjName','TabOptions').
+struct_dt_i([ 26,37,0 ],'ObjDesc','Tab Options').
+struct_dt_i([ 26,37,0 ],'ExternalName','TabOptions').
+struct_dt_i([ 26,37,0 ],'ExternalNamespace','WMS').
+struct_dt_i([ 26,37,0 ],collection,'True').
+struct_dt_i([ 26,37,0 ],datatype,[ 26,37,62 ]).
+struct_dt_i([ 26,37,62 ],name,'TabOptionsItem').
+struct_dt_i([ 26,37,62 ],namespace,'WMS.TabOptions').
+struct_dt_i([ 26,37,0 ],fullname,'TabOptions').
+struct_dt_i([ 26,37,62 ],fullname,'TabOptions.TabOptionsItem').
+struct_dt_i([ 26,37,0 ],modified,yes).
+struct_dt_i([ 26,37,62 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,37,62 ],1,name,'Code').
+struct_dt_elem_i([ 26,37,62 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,37,62 ],1,basedon,52).
+struct_dt_elem_i([ 26,37,62 ],1,length,50).
+struct_dt_elem_i([ 26,37,62 ],1,decimals,0).
+struct_dt_elem_i([ 26,37,62 ],1,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,37,62 ],1,pic,'').
+struct_dt_elem_i([ 26,37,62 ],1,collection,'False').
+struct_dt_elem_i([ 26,37,62 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,37,62 ],1,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,37,62 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,37,62 ],1,'XmlName','').
+struct_dt_elem_i([ 26,37,62 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,37,62 ],1,soaptype,'').
+struct_dt_elem_i([ 26,37,62 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,37,62 ],1,'JsonName','').
+struct_dt_elem_i([ 26,37,62 ],2,name,'Description').
+struct_dt_elem_i([ 26,37,62 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,37,62 ],2,length,255).
+struct_dt_elem_i([ 26,37,62 ],2,decimals,0).
+struct_dt_elem_i([ 26,37,62 ],2,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,37,62 ],2,pic,'').
+struct_dt_elem_i([ 26,37,62 ],2,collection,'False').
+struct_dt_elem_i([ 26,37,62 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,37,62 ],2,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,37,62 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,37,62 ],2,'XmlName','').
+struct_dt_elem_i([ 26,37,62 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,37,62 ],2,soaptype,'').
+struct_dt_elem_i([ 26,37,62 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,37,62 ],2,'JsonName','').
+struct_dt_elem_i([ 26,37,62 ],3,name,'Link').
+struct_dt_elem_i([ 26,37,62 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,37,62 ],3,basedon,7).
+struct_dt_elem_i([ 26,37,62 ],3,length,1000).
+struct_dt_elem_i([ 26,37,62 ],3,decimals,0).
+struct_dt_elem_i([ 26,37,62 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,37,62 ],3,pic,'').
+struct_dt_elem_i([ 26,37,62 ],3,collection,'False').
+struct_dt_elem_i([ 26,37,62 ],3,'ExternalName','Link').
+struct_dt_elem_i([ 26,37,62 ],3,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,37,62 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,37,62 ],3,'XmlName','').
+struct_dt_elem_i([ 26,37,62 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,37,62 ],3,soaptype,'').
+struct_dt_elem_i([ 26,37,62 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,37,62 ],3,'JsonName','').
+struct_dt_elem_i([ 26,37,62 ],4,name,'Webcomponent').
+struct_dt_elem_i([ 26,37,62 ],4,camelname,'WebComponent').
+struct_dt_elem_i([ 26,37,62 ],4,basedon,7).
+struct_dt_elem_i([ 26,37,62 ],4,length,1000).
+struct_dt_elem_i([ 26,37,62 ],4,decimals,0).
+struct_dt_elem_i([ 26,37,62 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,37,62 ],4,pic,'').
+struct_dt_elem_i([ 26,37,62 ],4,collection,'False').
+struct_dt_elem_i([ 26,37,62 ],4,'ExternalName','WebComponent').
+struct_dt_elem_i([ 26,37,62 ],4,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 26,37,62 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,37,62 ],4,'XmlName','').
+struct_dt_elem_i([ 26,37,62 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,37,62 ],4,soaptype,'').
+struct_dt_elem_i([ 26,37,62 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,37,62 ],4,'JsonName','').
+struct_dt_elem_i([ 26,37,62 ],1,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 26,37,62 ],3,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 26,37,62 ],4,pic,'ZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

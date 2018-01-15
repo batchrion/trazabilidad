@@ -1,0 +1,23 @@
+bc_dt_elem_i([ 0,3,0 ],1,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],2,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],3,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],4,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],5,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],6,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],7,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],8,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],9,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],10,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],11,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],12,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],13,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],14,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],15,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],16,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],17,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],18,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],19,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],20,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],21,allownulls,no).
+bc_dt_elem_i([ 0,3,0 ],22,allownulls,no).
+ 

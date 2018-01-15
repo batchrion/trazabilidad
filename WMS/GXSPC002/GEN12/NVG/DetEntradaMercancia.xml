@@ -1,0 +1,184 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>DetEntradaMercancia</ObjName>
+<ObjDesc>Det Entrada Mercancia</ObjDesc>
+<ObjPgmName>DetEntradaMercancia</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cabentradamercanciaid</VarId>
+<VarName>&amp;CabEntradaMercanciaId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>CabEntradaMercanciaId</AttriName>
+<Description>Entrada Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>OcDocEntry</AttriName>
+<Description>Oc Doc Entry</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>OC1LineNum</AttriName>
+<Description>OC1Line Num</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ItmItemCode</AttriName>
+<Description>Itm Item Code</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ItmItemName</AttriName>
+<Description>Itm Item Name</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>WhsCode</AttriName>
+<Description>Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>PPDetLinCantidad</AttriName>
+<Description>PPDet Lin Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>PPDetLinRecibida</AttriName>
+<Description>Cantidad Recibida</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>PPDetLinPendiente</AttriName>
+<Description>PPDet Lin Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>PPDetFechaEntrega</AttriName>
+<Description>PPDet Fecha Entrega</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PPDetLinStatus</AttriName>
+<Description>PPDet Lin Status</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>Empresa</AttriName>
+<Description>Empresa</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Lote</AttriName>
+<Description>Lote</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>OcDocEntry</AttriName>
+<Description>Oc Doc Entry</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>OC1LineNum</AttriName>
+<Description>OC1Line Num</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ItmItemCode</AttriName>
+<Description>Itm Item Code</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ItmItemName</AttriName>
+<Description>Itm Item Name</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>WhsCode</AttriName>
+<Description>Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>PPDetLinCantidad</AttriName>
+<Description>PPDet Lin Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>PPDetLinRecibida</AttriName>
+<Description>Cantidad Recibida</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>PPDetLinPendiente</AttriName>
+<Description>PPDet Lin Pendiente</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>PPDetFechaEntrega</AttriName>
+<Description>PPDet Fecha Entrega</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PPDetLinStatus</AttriName>
+<Description>PPDet Lin Status</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>Empresa</AttriName>
+<Description>Empresa</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Lote</AttriName>
+<Description>Lote</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CabEntradaMercancia</TableName>
+<Description>Cab Entrada Mercancia</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

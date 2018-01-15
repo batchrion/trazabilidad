@@ -1,0 +1,310 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>UVID_ATRCONTARTH</ObjName>
+<ObjDesc>UVID_ATRCONTARTH</ObjDesc>
+<ObjPgmName>UVID_ATRCONTARTH</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>10</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UVID_ATRCONTARTHDocEntry</AttriName>
+<Description>UVID_ATRCONTARTHDoc Entry</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UVID_ATRCONTARTHDocEntry</AttriName>
+<Description>UVID_ATRCONTARTHDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>163</AttriId>
+<AttriName>UVID_ATRCONTARTHDocNum</AttriName>
+<Description>UVID_ATRCONTARTHDoc Num</Description></Attribute>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>UVID_ATRCONTARTHPeriod</AttriName>
+<Description>UVID_ATRCONTARTHPeriod</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>UVID_ATRCONTARTHInstance</AttriName>
+<Description>UVID_ATRCONTARTHInstance</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>UVID_ATRCONTARTHSeries</AttriName>
+<Description>UVID_ATRCONTARTHSeries</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>UVID_ATRCONTARTHHandwrtten</AttriName>
+<Description>UVID_ATRCONTARTHHandwrtten</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>UVID_ATRCONTARTHCanceled</AttriName>
+<Description>UVID_ATRCONTARTHCanceled</Description></Attribute>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>UVID_ATRCONTARTHObject</AttriName>
+<Description>UVID_ATRCONTARTHObject</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>UVID_ATRCONTARTHLogInst</AttriName>
+<Description>UVID_ATRCONTARTHLog Inst</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>UVID_ATRCONTARTHUserSign</AttriName>
+<Description>UVID_ATRCONTARTHUser Sign</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>UVID_ATRCONTARTHTransfered</AttriName>
+<Description>UVID_ATRCONTARTHTransfered</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>UVID_ATRCONTARTHStatus</AttriName>
+<Description>UVID_ATRCONTARTHStatus</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>UVID_ATRCONTARTHCreateDate</AttriName>
+<Description>UVID_ATRCONTARTHCreate Date</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>UVID_ATRCONTARTHCreateTime</AttriName>
+<Description>UVID_ATRCONTARTHCreate Time</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>UVID_ATRCONTARTHUpdateDate</AttriName>
+<Description>UVID_ATRCONTARTHUpdate Date</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>UVID_ATRCONTARTHUpdateTime</AttriName>
+<Description>UVID_ATRCONTARTHUpdate Time</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>UVID_ATRCONTARTHDataSource</AttriName>
+<Description>UVID_ATRCONTARTHData Source</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>UVID_ATRCONTARTHRequestStatus</AttriName>
+<Description>UVID_ATRCONTARTHRequest Status</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>UVID_ATRCONTARTHCreator</AttriName>
+<Description>UVID_ATRCONTARTHCreator</Description></Attribute>
+<Attribute>
+<AttriId>181</AttriId>
+<AttriName>UVID_ATRCONTARTHRemark</AttriName>
+<Description>UVID_ATRCONTARTHRemark</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ItemCode</AttriName>
+<Description>UVID_ATRCONTARTHU_Item Code</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ItemName</AttriName>
+<Description>UVID_ATRCONTARTHU_Item Name</Description></Attribute>
+<Attribute>
+<AttriId>184</AttriId>
+<AttriName>UVID_ATRCONTARTHU_Comment</AttriName>
+<Description>UVID_ATRCONTARTHU_Comment</Description></Attribute>
+<Attribute>
+<AttriId>185</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ContraMu</AttriName>
+<Description>UVID_ATRCONTARTHU_Contra Mu</Description></Attribute>
+<Attribute>
+<AttriId>186</AttriId>
+<AttriName>UVID_ATRCONTARTHU_CoMuSize</AttriName>
+<Description>UVID_ATRCONTARTHU_Co Mu Size</Description></Attribute>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>UVID_ATRCONTARTHU_MuestDes</AttriName>
+<Description>UVID_ATRCONTARTHU_Muest Des</Description></Attribute>
+<Attribute>
+<AttriId>188</AttriId>
+<AttriName>UVID_ATRCONTARTHU_MuDeSize</AttriName>
+<Description>UVID_ATRCONTARTHU_Mu De Size</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>163</AttriId>
+<AttriName>UVID_ATRCONTARTHDocNum</AttriName>
+<Description>UVID_ATRCONTARTHDoc Num</Description></Attribute>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>UVID_ATRCONTARTHPeriod</AttriName>
+<Description>UVID_ATRCONTARTHPeriod</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>UVID_ATRCONTARTHInstance</AttriName>
+<Description>UVID_ATRCONTARTHInstance</Description></Attribute>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>UVID_ATRCONTARTHSeries</AttriName>
+<Description>UVID_ATRCONTARTHSeries</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>UVID_ATRCONTARTHHandwrtten</AttriName>
+<Description>UVID_ATRCONTARTHHandwrtten</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>UVID_ATRCONTARTHCanceled</AttriName>
+<Description>UVID_ATRCONTARTHCanceled</Description></Attribute>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>UVID_ATRCONTARTHObject</AttriName>
+<Description>UVID_ATRCONTARTHObject</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>UVID_ATRCONTARTHLogInst</AttriName>
+<Description>UVID_ATRCONTARTHLog Inst</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>UVID_ATRCONTARTHUserSign</AttriName>
+<Description>UVID_ATRCONTARTHUser Sign</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>UVID_ATRCONTARTHTransfered</AttriName>
+<Description>UVID_ATRCONTARTHTransfered</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>UVID_ATRCONTARTHStatus</AttriName>
+<Description>UVID_ATRCONTARTHStatus</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>UVID_ATRCONTARTHCreateDate</AttriName>
+<Description>UVID_ATRCONTARTHCreate Date</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>UVID_ATRCONTARTHCreateTime</AttriName>
+<Description>UVID_ATRCONTARTHCreate Time</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>UVID_ATRCONTARTHUpdateDate</AttriName>
+<Description>UVID_ATRCONTARTHUpdate Date</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>UVID_ATRCONTARTHUpdateTime</AttriName>
+<Description>UVID_ATRCONTARTHUpdate Time</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>UVID_ATRCONTARTHDataSource</AttriName>
+<Description>UVID_ATRCONTARTHData Source</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>UVID_ATRCONTARTHRequestStatus</AttriName>
+<Description>UVID_ATRCONTARTHRequest Status</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>UVID_ATRCONTARTHCreator</AttriName>
+<Description>UVID_ATRCONTARTHCreator</Description></Attribute>
+<Attribute>
+<AttriId>181</AttriId>
+<AttriName>UVID_ATRCONTARTHRemark</AttriName>
+<Description>UVID_ATRCONTARTHRemark</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ItemCode</AttriName>
+<Description>UVID_ATRCONTARTHU_Item Code</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ItemName</AttriName>
+<Description>UVID_ATRCONTARTHU_Item Name</Description></Attribute>
+<Attribute>
+<AttriId>184</AttriId>
+<AttriName>UVID_ATRCONTARTHU_Comment</AttriName>
+<Description>UVID_ATRCONTARTHU_Comment</Description></Attribute>
+<Attribute>
+<AttriId>185</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ContraMu</AttriName>
+<Description>UVID_ATRCONTARTHU_Contra Mu</Description></Attribute>
+<Attribute>
+<AttriId>186</AttriId>
+<AttriName>UVID_ATRCONTARTHU_CoMuSize</AttriName>
+<Description>UVID_ATRCONTARTHU_Co Mu Size</Description></Attribute>
+<Attribute>
+<AttriId>187</AttriId>
+<AttriName>UVID_ATRCONTARTHU_MuestDes</AttriName>
+<Description>UVID_ATRCONTARTHU_Muest Des</Description></Attribute>
+<Attribute>
+<AttriId>188</AttriId>
+<AttriName>UVID_ATRCONTARTHU_MuDeSize</AttriName>
+<Description>UVID_ATRCONTARTHU_Mu De Size</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>36</ObjId>
+<ObjName>Gx00A0</ObjName>
+<ObjPgmName>Gx00A0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UVID_ATRCONTARTHDocEntry</AttriName>
+<Description>UVID_ATRCONTARTHDoc Entry</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

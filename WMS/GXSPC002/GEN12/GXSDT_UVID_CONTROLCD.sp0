@@ -1,0 +1,254 @@
+ 
+spec_i([ sdt,[ 0,3,0 ],'UVID_CONTROLCD','UVID_CONTROLCD',0,spa,'15_0_3-111985' ]).
+ 
+struct_dt_i([ 0,3,0 ],name,'UVID_CONTROLCD').
+struct_dt_i([ 0,3,0 ],namespace,'WMS').
+struct_dt_i([ 0,3,0 ],significantName,'UVID_CONTROLCD').
+struct_dt_i([ 0,3,0 ],'ObjName','UVID_CONTROLCD').
+struct_dt_i([ 0,3,0 ],'ObjDesc','UVID_CONTROLCD').
+struct_dt_i([ 0,3,0 ],'ExternalName','UVID_CONTROLCD').
+struct_dt_i([ 0,3,0 ],'ExternalNamespace','WMS').
+struct_dt_i([ 0,3,0 ],key,[ 41,42 ]).
+struct_dt_i([ 0,3,0 ],lvl,8).
+struct_dt_i([ 0,3,0 ],fullname,'UVID_CONTROLCD').
+ 
+struct_dt_elem_i([ 0,3,0 ],1,name,'Uvid_controlcddocentry').
+struct_dt_elem_i([ 0,3,0 ],1,camelname,'UVID_CONTROLCDDocEntry').
+struct_dt_elem_i([ 0,3,0 ],1,length,9).
+struct_dt_elem_i([ 0,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],1,sign,0).
+struct_dt_elem_i([ 0,3,0 ],1,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,3,0 ],1,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],1,attributeid,'41').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalName','UVID_CONTROLCDDocEntry').
+struct_dt_elem_i([ 0,3,0 ],1,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],2,name,'Lineid').
+struct_dt_elem_i([ 0,3,0 ],2,camelname,'LineId').
+struct_dt_elem_i([ 0,3,0 ],2,length,9).
+struct_dt_elem_i([ 0,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],2,sign,0).
+struct_dt_elem_i([ 0,3,0 ],2,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,3,0 ],2,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],2,attributeid,'42').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalName','LineId').
+struct_dt_elem_i([ 0,3,0 ],2,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],3,name,'Visorder').
+struct_dt_elem_i([ 0,3,0 ],3,camelname,'VisOrder').
+struct_dt_elem_i([ 0,3,0 ],3,length,9).
+struct_dt_elem_i([ 0,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],3,sign,0).
+struct_dt_elem_i([ 0,3,0 ],3,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,3,0 ],3,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],3,attributeid,'106').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalName','VisOrder').
+struct_dt_elem_i([ 0,3,0 ],3,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],4,name,'Uvid_controlcdobject').
+struct_dt_elem_i([ 0,3,0 ],4,camelname,'UVID_CONTROLCDObject').
+struct_dt_elem_i([ 0,3,0 ],4,length,20).
+struct_dt_elem_i([ 0,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],4,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,3,0 ],4,pic,'').
+struct_dt_elem_i([ 0,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],4,attributeid,'107').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalName','UVID_CONTROLCDObject').
+struct_dt_elem_i([ 0,3,0 ],4,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],5,name,'Uvid_controlcdloginst').
+struct_dt_elem_i([ 0,3,0 ],5,camelname,'UVID_CONTROLCDLogInst').
+struct_dt_elem_i([ 0,3,0 ],5,length,9).
+struct_dt_elem_i([ 0,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],5,sign,0).
+struct_dt_elem_i([ 0,3,0 ],5,type,[ 4,9,0 ]).
+struct_dt_elem_i([ 0,3,0 ],5,pic,'ZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],5,attributeid,'108').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalName','UVID_CONTROLCDLogInst').
+struct_dt_elem_i([ 0,3,0 ],5,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],6,name,'U_codatr').
+struct_dt_elem_i([ 0,3,0 ],6,camelname,'U_CodAtr').
+struct_dt_elem_i([ 0,3,0 ],6,length,20).
+struct_dt_elem_i([ 0,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],6,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,3,0 ],6,pic,'').
+struct_dt_elem_i([ 0,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],6,attributeid,'109').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalName','U_CodAtr').
+struct_dt_elem_i([ 0,3,0 ],6,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],7,name,'U_nameatr').
+struct_dt_elem_i([ 0,3,0 ],7,camelname,'U_NameAtr').
+struct_dt_elem_i([ 0,3,0 ],7,length,50).
+struct_dt_elem_i([ 0,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],7,type,[ 13,50,0 ]).
+struct_dt_elem_i([ 0,3,0 ],7,pic,'').
+struct_dt_elem_i([ 0,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],7,attributeid,'110').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalName','U_NameAtr').
+struct_dt_elem_i([ 0,3,0 ],7,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],8,name,'U_cualitat').
+struct_dt_elem_i([ 0,3,0 ],8,camelname,'U_Cualitat').
+struct_dt_elem_i([ 0,3,0 ],8,length,1).
+struct_dt_elem_i([ 0,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],8,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 0,3,0 ],8,pic,'').
+struct_dt_elem_i([ 0,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],8,attributeid,'111').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalName','U_Cualitat').
+struct_dt_elem_i([ 0,3,0 ],8,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],9,name,'U_critico').
+struct_dt_elem_i([ 0,3,0 ],9,camelname,'U_Critico').
+struct_dt_elem_i([ 0,3,0 ],9,length,1).
+struct_dt_elem_i([ 0,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],9,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 0,3,0 ],9,pic,'').
+struct_dt_elem_i([ 0,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],9,attributeid,'112').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalName','U_Critico').
+struct_dt_elem_i([ 0,3,0 ],9,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],10,name,'U_tipomues').
+struct_dt_elem_i([ 0,3,0 ],10,camelname,'U_TipoMues').
+struct_dt_elem_i([ 0,3,0 ],10,length,8).
+struct_dt_elem_i([ 0,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],10,type,[ 13,8,0 ]).
+struct_dt_elem_i([ 0,3,0 ],10,pic,'').
+struct_dt_elem_i([ 0,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],10,attributeid,'113').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalName','U_TipoMues').
+struct_dt_elem_i([ 0,3,0 ],10,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],11,name,'U_rango').
+struct_dt_elem_i([ 0,3,0 ],11,camelname,'U_Rango').
+struct_dt_elem_i([ 0,3,0 ],11,length,20).
+struct_dt_elem_i([ 0,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],11,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 0,3,0 ],11,pic,'').
+struct_dt_elem_i([ 0,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],11,attributeid,'114').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalName','U_Rango').
+struct_dt_elem_i([ 0,3,0 ],11,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],12,name,'U_tipodef').
+struct_dt_elem_i([ 0,3,0 ],12,camelname,'U_TipoDef').
+struct_dt_elem_i([ 0,3,0 ],12,length,1).
+struct_dt_elem_i([ 0,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],12,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 0,3,0 ],12,pic,'').
+struct_dt_elem_i([ 0,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],12,attributeid,'115').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalName','U_TipoDef').
+struct_dt_elem_i([ 0,3,0 ],12,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],13,name,'U_aql').
+struct_dt_elem_i([ 0,3,0 ],13,camelname,'U_AQL').
+struct_dt_elem_i([ 0,3,0 ],13,length,8).
+struct_dt_elem_i([ 0,3,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],13,type,[ 13,8,0 ]).
+struct_dt_elem_i([ 0,3,0 ],13,pic,'').
+struct_dt_elem_i([ 0,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],13,attributeid,'116').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalName','U_AQL').
+struct_dt_elem_i([ 0,3,0 ],13,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],14,name,'U_tiempodu').
+struct_dt_elem_i([ 0,3,0 ],14,camelname,'U_TiempoDu').
+struct_dt_elem_i([ 0,3,0 ],14,length,18).
+struct_dt_elem_i([ 0,3,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],14,sign,0).
+struct_dt_elem_i([ 0,3,0 ],14,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],14,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],14,attributeid,'117').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalName','U_TiempoDu').
+struct_dt_elem_i([ 0,3,0 ],14,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],15,name,'U_standatr').
+struct_dt_elem_i([ 0,3,0 ],15,camelname,'U_StandAtr').
+struct_dt_elem_i([ 0,3,0 ],15,length,18).
+struct_dt_elem_i([ 0,3,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],15,sign,0).
+struct_dt_elem_i([ 0,3,0 ],15,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],15,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],15,attributeid,'118').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalName','U_StandAtr').
+struct_dt_elem_i([ 0,3,0 ],15,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],16,name,'U_minimo').
+struct_dt_elem_i([ 0,3,0 ],16,camelname,'U_Minimo').
+struct_dt_elem_i([ 0,3,0 ],16,length,18).
+struct_dt_elem_i([ 0,3,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],16,sign,0).
+struct_dt_elem_i([ 0,3,0 ],16,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],16,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],16,attributeid,'119').
+struct_dt_elem_i([ 0,3,0 ],16,'ExternalName','U_Minimo').
+struct_dt_elem_i([ 0,3,0 ],16,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],17,name,'U_maximo').
+struct_dt_elem_i([ 0,3,0 ],17,camelname,'U_Maximo').
+struct_dt_elem_i([ 0,3,0 ],17,length,18).
+struct_dt_elem_i([ 0,3,0 ],17,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],17,sign,0).
+struct_dt_elem_i([ 0,3,0 ],17,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],17,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],17,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],17,attributeid,'120').
+struct_dt_elem_i([ 0,3,0 ],17,'ExternalName','U_Maximo').
+struct_dt_elem_i([ 0,3,0 ],17,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],18,name,'U_medicion').
+struct_dt_elem_i([ 0,3,0 ],18,camelname,'U_Medicion').
+struct_dt_elem_i([ 0,3,0 ],18,length,18).
+struct_dt_elem_i([ 0,3,0 ],18,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],18,sign,0).
+struct_dt_elem_i([ 0,3,0 ],18,type,[ 4,18,0 ]).
+struct_dt_elem_i([ 0,3,0 ],18,pic,'ZZZZZZZZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,3,0 ],18,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],18,attributeid,'121').
+struct_dt_elem_i([ 0,3,0 ],18,'ExternalName','U_Medicion').
+struct_dt_elem_i([ 0,3,0 ],18,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],19,name,'U_codequip').
+struct_dt_elem_i([ 0,3,0 ],19,camelname,'U_CodEquip').
+struct_dt_elem_i([ 0,3,0 ],19,length,8).
+struct_dt_elem_i([ 0,3,0 ],19,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],19,type,[ 13,8,0 ]).
+struct_dt_elem_i([ 0,3,0 ],19,pic,'').
+struct_dt_elem_i([ 0,3,0 ],19,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],19,attributeid,'122').
+struct_dt_elem_i([ 0,3,0 ],19,'ExternalName','U_CodEquip').
+struct_dt_elem_i([ 0,3,0 ],19,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],20,name,'Uvid_controlcdu_comment').
+struct_dt_elem_i([ 0,3,0 ],20,camelname,'UVID_CONTROLCDU_Comment').
+struct_dt_elem_i([ 0,3,0 ],20,length,254).
+struct_dt_elem_i([ 0,3,0 ],20,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],20,type,[ 13,254,0 ]).
+struct_dt_elem_i([ 0,3,0 ],20,pic,'').
+struct_dt_elem_i([ 0,3,0 ],20,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],20,attributeid,'123').
+struct_dt_elem_i([ 0,3,0 ],20,'ExternalName','UVID_CONTROLCDU_Comment').
+struct_dt_elem_i([ 0,3,0 ],20,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],21,name,'U_comment2').
+struct_dt_elem_i([ 0,3,0 ],21,camelname,'U_Comment2').
+struct_dt_elem_i([ 0,3,0 ],21,length,254).
+struct_dt_elem_i([ 0,3,0 ],21,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],21,type,[ 13,254,0 ]).
+struct_dt_elem_i([ 0,3,0 ],21,pic,'').
+struct_dt_elem_i([ 0,3,0 ],21,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],21,attributeid,'124').
+struct_dt_elem_i([ 0,3,0 ],21,'ExternalName','U_Comment2').
+struct_dt_elem_i([ 0,3,0 ],21,'ExternalNamespace','WMS').
+struct_dt_elem_i([ 0,3,0 ],22,name,'Uvid_controlcdu_estado').
+struct_dt_elem_i([ 0,3,0 ],22,camelname,'UVID_CONTROLCDU_Estado').
+struct_dt_elem_i([ 0,3,0 ],22,length,1).
+struct_dt_elem_i([ 0,3,0 ],22,decimals,0).
+struct_dt_elem_i([ 0,3,0 ],22,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 0,3,0 ],22,pic,'').
+struct_dt_elem_i([ 0,3,0 ],22,collection,'False').
+struct_dt_elem_i([ 0,3,0 ],22,attributeid,'125').
+struct_dt_elem_i([ 0,3,0 ],22,'ExternalName','UVID_CONTROLCDU_Estado').
+struct_dt_elem_i([ 0,3,0 ],22,'ExternalNamespace','WMS').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+ 
+ 
+ 

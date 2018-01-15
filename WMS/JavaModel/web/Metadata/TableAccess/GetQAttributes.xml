@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ddec53a5-7ca9-4986-83cb-5dc577328019">
+  <Table name="@VID_ATRCONTARTD" />
+  <Table name="@VID_ATRCONTARTH" />
+</Dependencies>

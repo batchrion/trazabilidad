@@ -1,0 +1,180 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>18</ObjId>
+<ObjName>GetQAttributes</ObjName>
+<ObjDesc>Get QAttributes</ObjDesc>
+<ObjPgmName>GetQAttributes</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0043</MsgCode>
+<Message>
+<Token></Token>
+<Attribute>
+<AttriId>113</AttriId>
+<AttriName>U_TipoMues</AttriName>
+<Description>U_Tipo Mues</Description></Attribute>
+<Token> is not instantiated</Token>
+<Token> in group starting at line </Token>
+<Token>8</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0043</MsgCode>
+<Message>
+<Token></Token>
+<Attribute>
+<AttriId>117</AttriId>
+<AttriName>U_TiempoDu</AttriName>
+<Description>U_Tiempo Du</Description></Attribute>
+<Token> is not instantiated</Token>
+<Token> in group starting at line </Token>
+<Token>8</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Itemcode</VarId>
+<VarName>&amp;ItemCode</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Qattributedetail</VarId>
+<VarName>&amp;QAttributeDetail</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>FirstRows</Type>
+<MaxRows>1</MaxRows></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UVID_ATRCONTARTHDocEntry</AttriName>
+<Description>UVID_ATRCONTARTHDoc Entry</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>KVID_ATRCONTARTH_PR</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>UVID_ATRCONTARTHU_ItemCode</AttriName>
+<Description>UVID_ATRCONTARTHU_Item Code</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Itemcode</VarId>
+<VarName>&amp;ItemCode</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>@VID_ATRCONTARTH</TableName>
+<Description>UVID_ATRCONTARTH</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>UVID_ATRCONTARTHDocEntry</AttriName>
+<Description>UVID_ATRCONTARTHDoc Entry</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>8</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>@VID_ATRCONTARTD</TableName>
+<Description>UVID_ATRCONTARTD</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>UVID_ATRCONTARTDDocEntry</AttriName>
+<Description>UVID_ATRCONTARTDDoc Entry</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>KVID_ATRCONTARTD_PR</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>UVID_ATRCONTARTDDocEntry</AttriName>
+<Description>UVID_ATRCONTARTDDoc Entry</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Docentry</VarId>
+<VarName>&amp;DocEntry</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>UVID_ATRCONTARTDDocEntry</AttriName>
+<Description>UVID_ATRCONTARTDDoc Entry</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Docentry</VarId>
+<VarName>&amp;DocEntry</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>@VID_ATRCONTARTD</TableName>
+<Description>UVID_ATRCONTARTD</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>UVID_ATRCONTARTDDocEntry</AttriName>
+<Description>UVID_ATRCONTARTDDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>129</AttriId>
+<AttriName>LineId2</AttriName>
+<Description>Line Id2</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

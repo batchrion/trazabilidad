@@ -1,0 +1,9 @@
+ 
+ 
+subtype_views_enabled_i(1,yes,'15_0_3-111066').
+ 
+ 
+ 
+subtype_view_last_no_i(1,510).
+ 
+subtype_view_ts_i(1,'2018-01-11 16:49:54').

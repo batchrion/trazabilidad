@@ -1,0 +1,286 @@
+
+<ObjectSpec>
+<SpecVersion>15_0_3-111985</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>RegistroInspeccionH</ObjName>
+<ObjDesc>Registro Inspeccion H</ObjDesc>
+<ObjPgmName>RegistroInspeccionH</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>5</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UVID_CONTROLCHDocEntry</AttriName>
+<Description>UVID_CONTROLCHDoc Entry</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UVID_CONTROLCHDocEntry</AttriName>
+<Description>UVID_CONTROLCHDoc Entry</Description></Attribute>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>U_WhsCode</AttriName>
+<Description>U_Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>U_ItemCode</AttriName>
+<Description>U_Item Code</Description></Attribute>
+<Attribute>
+<AttriId>70</AttriId>
+<AttriName>U_NoLote</AttriName>
+<Description>U_No Lote</Description></Attribute>
+<Attribute>
+<AttriId>73</AttriId>
+<AttriName>U_Cantidad</AttriName>
+<Description>U_Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>U_Bultos</AttriName>
+<Description>U_Bultos</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>U_BultosMu</AttriName>
+<Description>U_Bultos Mu</Description></Attribute>
+<Attribute>
+<AttriId>86</AttriId>
+<AttriName>U_Traslado</AttriName>
+<Description>U_Traslado</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>U_FecIngr</AttriName>
+<Description>U_Fec Ingr</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>U_UM</AttriName>
+<Description>U_UM</Description></Attribute>
+<Attribute>
+<AttriId>81</AttriId>
+<AttriName>U_FecIni</AttriName>
+<Description>U_Fec Ini</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>U_FecFin</AttriName>
+<Description>U_Fec Fin</Description></Attribute>
+<Attribute>
+<AttriId>104</AttriId>
+<AttriName>U_Reanalis</AttriName>
+<Description>U_Reanalis</Description></Attribute>
+<Attribute>
+<AttriId>72</AttriId>
+<AttriName>U_CorrAnal</AttriName>
+<Description>U_Corr Anal</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>U_NoDoc</AttriName>
+<Description>U_No Doc</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>U_FecContr</AttriName>
+<Description>U_Fec Contr</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>U_CorrLote</AttriName>
+<Description>U_Corr Lote</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>U_FecUltIn</AttriName>
+<Description>U_Fec Ult In</Description></Attribute>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>U_CCCode</AttriName>
+<Description>U_CCCode</Description></Attribute>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>U_PrjCode</AttriName>
+<Description>U_Prj Code</Description></Attribute>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>UVID_CONTROLCHU_Estado</AttriName>
+<Description>UVID_CONTROLCHU_Estado</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>U_TipResul</AttriName>
+<Description>U_Tip Resul</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>U_WhsDest</AttriName>
+<Description>U_Whs Dest</Description></Attribute>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>UVID_CONTROLCHU_Comment</AttriName>
+<Description>UVID_CONTROLCHU_Comment</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>U_WhsCode</AttriName>
+<Description>U_Whs Code</Description></Attribute>
+<Attribute>
+<AttriId>63</AttriId>
+<AttriName>U_ItemCode</AttriName>
+<Description>U_Item Code</Description></Attribute>
+<Attribute>
+<AttriId>70</AttriId>
+<AttriName>U_NoLote</AttriName>
+<Description>U_No Lote</Description></Attribute>
+<Attribute>
+<AttriId>73</AttriId>
+<AttriName>U_Cantidad</AttriName>
+<Description>U_Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>U_Bultos</AttriName>
+<Description>U_Bultos</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>U_BultosMu</AttriName>
+<Description>U_Bultos Mu</Description></Attribute>
+<Attribute>
+<AttriId>86</AttriId>
+<AttriName>U_Traslado</AttriName>
+<Description>U_Traslado</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>U_FecIngr</AttriName>
+<Description>U_Fec Ingr</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>U_UM</AttriName>
+<Description>U_UM</Description></Attribute>
+<Attribute>
+<AttriId>81</AttriId>
+<AttriName>U_FecIni</AttriName>
+<Description>U_Fec Ini</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>U_FecFin</AttriName>
+<Description>U_Fec Fin</Description></Attribute>
+<Attribute>
+<AttriId>104</AttriId>
+<AttriName>U_Reanalis</AttriName>
+<Description>U_Reanalis</Description></Attribute>
+<Attribute>
+<AttriId>72</AttriId>
+<AttriName>U_CorrAnal</AttriName>
+<Description>U_Corr Anal</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>U_NoDoc</AttriName>
+<Description>U_No Doc</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>U_FecContr</AttriName>
+<Description>U_Fec Contr</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>U_CorrLote</AttriName>
+<Description>U_Corr Lote</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>U_FecUltIn</AttriName>
+<Description>U_Fec Ult In</Description></Attribute>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>U_CCCode</AttriName>
+<Description>U_CCCode</Description></Attribute>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>U_PrjCode</AttriName>
+<Description>U_Prj Code</Description></Attribute>
+<Attribute>
+<AttriId>85</AttriId>
+<AttriName>UVID_CONTROLCHU_Estado</AttriName>
+<Description>UVID_CONTROLCHU_Estado</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>U_TipResul</AttriName>
+<Description>U_Tip Resul</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>U_WhsDest</AttriName>
+<Description>U_Whs Dest</Description></Attribute>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>UVID_CONTROLCHU_Comment</AttriName>
+<Description>UVID_CONTROLCHU_Comment</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>5</TableId>
+<TableName>@VID_CONTROLCH</TableName>
+<Description>UVID_CONTROLCH</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>33</ObjId>
+<ObjName>Gx0050</ObjName>
+<ObjPgmName>Gx0050</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UVID_CONTROLCHDocEntry</AttriName>
+<Description>UVID_CONTROLCHDoc Entry</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,33 @@
+current_obj_i(2,proc,17).
+ 
+current_guid('2d8143b6-e009-73fe-9e38-3d382695a61e').
+ 
+ 
+called_tree_i(1,17,1,13).
+ 
+is_webproc_i(apreportone2).
+ 
+is_pdf_i.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(apreportone2,'Report One2','','""','HTTP').
+ 
+ 
+ 
+ 
+ij_object_dependency(apreportone2,[],[ apreportone2_impl ],[ 'GxWebStd' ],17).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
